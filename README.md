@@ -1,1 +1,20 @@
-# SoftwareEng
+# Finanote – Student Expense Tracker
+
+## Overview
+Finanote is a simple web application designed to help students record, visualize, and manage their daily expenses using Python (Flask) and SQLite.
+
+## Repository Structure
+- **/docs** – Project deliverables: Feasibility Report, Survey Summary, Presentation.
+- **/survey** – Raw survey data and screenshots from Google Forms.
+- **/src** – Source code for the Flask application (to be developed).
+
+## Project Team
+- [Ahmed Khalil El Atri]
+- [Omar Ait Said]
+
+## Professor Access
+This repository is public for project evaluation.  
+Survey link: [insert your Google Form link here]
+
+---
+*Software Engineering Project – [UM6P-College of Computing]*
