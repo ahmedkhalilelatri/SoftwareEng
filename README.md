@@ -4,7 +4,7 @@
 Finanote is a simple web application designed to help students record, visualize, and manage their daily expenses using Python (Flask) and SQLite.
 
 ## Repository Structure
-- **/docs** – Project deliverables: Feasibility Report, Survey Summary, Presentation.
+- **/docs** – Project deliverables: Feasibility Report, Survey Summary, Presentation, and UseCase diagram.
 
 ## Project Team
 - [Ahmed Khalil El Atri]
