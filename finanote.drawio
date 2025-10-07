@@ -1,0 +1,142 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="FinaNote Use Case" id="finanoteUseCase">
+    <mxGraphModel dx="1838" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sysBoundary" value="" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="80" y="20" width="900" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="FinaNote Use Case" style="text;align=center;verticalAlign=top;fontSize=20;fontStyle=1;shadow=1;fontColor=#000000;" parent="sysBoundary" vertex="1">
+          <mxGeometry width="900" height="32.7" as="geometry" />
+        </mxCell>
+        <mxCell id="mod1" value="" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#006600;" parent="sysBoundary" vertex="1">
+          <mxGeometry x="40" y="40.88" width="820" height="259.13" as="geometry" />
+        </mxCell>
+        <mxCell id="mod1Title" value="Expense Management" style="text;align=center;fontSize=14;fontStyle=1;fontColor=#000000;" parent="mod1" vertex="1">
+          <mxGeometry width="820" height="31.095599999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="F1" value="Add expense" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod1" vertex="1">
+          <mxGeometry x="40" y="41.4608" width="740" height="29.02256" as="geometry" />
+        </mxCell>
+        <mxCell id="F3" value="Display all expenses" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod1" vertex="1">
+          <mxGeometry x="40" y="77.73899999999999" width="740" height="29.02256" as="geometry" />
+        </mxCell>
+        <mxCell id="F4" value="Display total monthly spending" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod1" vertex="1">
+          <mxGeometry x="40" y="114.01719999999999" width="740" height="29.02256" as="geometry" />
+        </mxCell>
+        <mxCell id="F7" value="Delete or edit expense" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod1" vertex="1">
+          <mxGeometry x="40" y="150.2954" width="740" height="29.02256" as="geometry" />
+        </mxCell>
+        <mxCell id="E1" value="Empty field error message" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod1" vertex="1">
+          <mxGeometry x="40" y="186.5736" width="740" height="29.02256" as="geometry" />
+        </mxCell>
+        <mxCell id="E4" value="Reject invalid (negative) amount" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod1" vertex="1">
+          <mxGeometry x="40" y="222.8518" width="740" height="29.02256" as="geometry" />
+        </mxCell>
+        <mxCell id="mod2" value="" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="sysBoundary" vertex="1">
+          <mxGeometry x="40" y="360" width="820" height="250.01" as="geometry" />
+        </mxCell>
+        <mxCell id="mod2Title" value="Budget Management" style="text;align=center;fontSize=14;fontStyle=1;fontColor=#000000;" parent="mod2" vertex="1">
+          <mxGeometry width="820" height="39.47526315789473" as="geometry" />
+        </mxCell>
+        <mxCell id="F2" value="Display remaining budget after new expense" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod2" vertex="1">
+          <mxGeometry x="40" y="52.63368421052631" width="740" height="36.84357894736842" as="geometry" />
+        </mxCell>
+        <mxCell id="F5" value="Set monthly budget" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod2" vertex="1">
+          <mxGeometry x="40" y="98.68815789473685" width="740" height="36.84357894736842" as="geometry" />
+        </mxCell>
+        <mxCell id="F6" value="Warn user when budget is exceeded" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod2" vertex="1">
+          <mxGeometry x="40" y="144.74263157894734" width="740" height="36.84357894736842" as="geometry" />
+        </mxCell>
+        <mxCell id="E5" value="Budget warning at 90% usage" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod2" vertex="1">
+          <mxGeometry x="40" y="190.7971052631579" width="740" height="36.84357894736842" as="geometry" />
+        </mxCell>
+        <mxCell id="mod3" value="" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="sysBoundary" vertex="1">
+          <mxGeometry x="40" y="700" width="820" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="mod3Title" value="Visualization &amp; Reports" style="text;align=center;fontSize=14;fontStyle=1;fontColor=#000000;" parent="mod3" vertex="1">
+          <mxGeometry width="820" height="41.73913043478261" as="geometry" />
+        </mxCell>
+        <mxCell id="F8" value="Display total spending by category" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod3" vertex="1">
+          <mxGeometry x="40" y="55.65217391304348" width="740" height="38.95652173913043" as="geometry" />
+        </mxCell>
+        <mxCell id="F9" value="Export data as PDF" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod3" vertex="1">
+          <mxGeometry x="40" y="104.34782608695653" width="740" height="38.95652173913043" as="geometry" />
+        </mxCell>
+        <mxCell id="F10" value="Basic chart visualization" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod3" vertex="1">
+          <mxGeometry x="40" y="153.04347826086956" width="740" height="38.95652173913043" as="geometry" />
+        </mxCell>
+        <mxCell id="E2" value="Handle database error gracefully" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod3" vertex="1">
+          <mxGeometry x="40" y="201.73657758276826" width="740" height="43.33721579577184" as="geometry" />
+        </mxCell>
+        <mxCell id="E3" value="Retry automatically if DB connection fails" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="mod3" vertex="1">
+          <mxGeometry x="40" y="250.43478260869566" width="740" height="38.95652173913043" as="geometry" />
+        </mxCell>
+        <mxCell id="user1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="10" y="150.2" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="system1" value="System Services" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="140" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=none;" parent="1" source="user1" target="F1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=none;" parent="1" source="user1" target="F3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=none;" parent="1" source="user1" target="F4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=none;" parent="1" source="user1" target="F7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=none;" parent="1" source="system1" target="E1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=none;" parent="1" source="system1" target="E4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="20" y="420" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="system2" value="System Services" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="420" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="endArrow=none;" parent="1" source="user2" target="F2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="endArrow=none;" parent="1" source="user2" target="F5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" style="endArrow=none;" parent="1" source="user2" target="F6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=none;" parent="1" source="system2" target="E5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user3" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="20" y="660" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="system3" value="System Services" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="660" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" style="endArrow=none;" parent="1" source="user3" target="F8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" style="endArrow=none;" parent="1" source="user3" target="F9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" style="endArrow=none;" parent="1" source="user3" target="F10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14" style="endArrow=none;" parent="1" source="system3" target="E2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15" style="endArrow=none;" parent="1" source="system3" target="E3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
