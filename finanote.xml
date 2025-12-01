@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Finanote Use Cases">
+    <mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Authentication Module - Actor (Student) -->
+        <mxCell id="actor_auth" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="40" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_register" value="Register" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_login" value="Login" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_logout" value="Logout" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_reset" value="Reset Password" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Expense Management Module - Actor (Student) -->
+        <mxCell id="actor_exp" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="40" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_add" value="Add Expense" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_edit" value="Edit Expense" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_delete" value="Delete Expense" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_list" value="View Expense List" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Reporting Module - Actor (Student) -->
+        <mxCell id="actor_rep" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="40" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_monthly" value="View Monthly Total" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_biggest" value="Show Biggest Expense" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="110" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_category" value="Category Breakdown" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Budget Module - Actor (Student) -->
+        <mxCell id="actor_budget" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="40" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_setbudget" value="Set Budget" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_alert" value="Receive Budget Alert" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="330" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Module - Actor (Student) -->
+        <mxCell id="actor_data" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="40" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_export" value="Export CSV" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_import" value="Import CSV" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc_backup" value="Backup Data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="560" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Connectors: Authentication actor to its use cases -->
+        <mxCell id="e_a1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_auth" target="uc_register">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_a2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_auth" target="uc_login">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_a3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_auth" target="uc_logout">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_a4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_auth" target="uc_reset">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Expense actor connections -->
+        <mxCell id="e_e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_exp" target="uc_add">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_exp" target="uc_edit">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_exp" target="uc_delete">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_exp" target="uc_list">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Reporting actor connections -->
+        <mxCell id="e_r1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_rep" target="uc_monthly">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_r2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_rep" target="uc_biggest">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_r3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_rep" target="uc_category">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Budget actor connections -->
+        <mxCell id="e_b1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_budget" target="uc_setbudget">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_b2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_budget" target="uc_alert">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Data actor connections -->
+        <mxCell id="e_d1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_data" target="uc_export">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_d2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_data" target="uc_import">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_d3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="actor_data" target="uc_backup">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
