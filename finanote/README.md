@@ -19,7 +19,7 @@ Finanote is a web-based expense tracking application designed to help students m
 -   **Backend**: Java 21, Spring Boot 3.2.0
 -   **Database**: H2 Database (In-memory)
 -   **Security**: Spring Security, JWT (JSON Web Tokens)
--   **Frontend**: Thymeleaf, HTML, CSS, JavaScript
+-   **Frontend**: HTML, CSS, JavaScript
 -   **Build Tool**: Maven
 
 ## Prerequisites
